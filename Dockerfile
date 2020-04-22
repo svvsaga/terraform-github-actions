@@ -1,4 +1,4 @@
-FROM alpine:3 
+FROM google/cloud-sdk:alpine:latest 
 
 RUN ["/bin/sh", "-c", "apk add --update --no-cache bash ca-certificates curl git jq openssh python3"]
 
